@@ -6,7 +6,7 @@
 #    By: vehernan <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/21 19:51:41 by vehernan          #+#    #+#              #
-#    Updated: 2019/07/08 18:04:22 by vehernan         ###   ########.fr        #
+#    Updated: 2019/07/13 10:58:17 by vehernan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,6 +25,7 @@ SRC = ft_bzero.c ft_strlen.c ft_strcpy.c ft_strncpy.c ft_strcmp.c\
 	ft_strjoin.c ft_islower.c ft_isupper.c ft_isspace.c ft_count.c\
 	ft_itoa.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c\
 	ft_lstiter.c ft_lstmap.c ft_strsplit.c ft_nbrc.c ft_len.c\
+	ft_strnewcpy.c
 
 OBJS = ft_bzero.o ft_strlen.o ft_strcpy.o ft_strncpy.o ft_strcmp.o\
 	ft_strncmp.o ft_strdup.o ft_atoi.o ft_isdigit.o ft_isascii.o\
@@ -39,6 +40,7 @@ OBJS = ft_bzero.o ft_strlen.o ft_strcpy.o ft_strncpy.o ft_strcmp.o\
 	ft_strjoin.o ft_islower.o ft_isupper.o ft_isspace.o ft_count.o\
 	ft_itoa.o ft_lstnew.o ft_lstdelone.o ft_lstdel.o ft_lstadd.o\
 	ft_lstiter.o ft_lstmap.o ft_strsplit.o ft_nbrc.o ft_len.o\
+	ft_strnewcpy.o
 
 FLAGS = -Wall -Wextra -Werror
 

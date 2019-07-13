@@ -6,7 +6,7 @@
 /*   By: vehernan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/21 19:48:28 by vehernan          #+#    #+#             */
-/*   Updated: 2019/07/11 18:01:58 by vehernan         ###   ########.fr       */
+/*   Updated: 2019/07/13 10:58:45 by vehernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,5 +93,6 @@ int					ft_islower(int c);
 size_t				ft_nbrc(int nbr);
 size_t				ft_count(char const *str, char c);
 size_t				ft_len(char const *str, char c);
+char				*ft_strnewcpy(char *str);
 
 #endif
